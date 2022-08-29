@@ -5,6 +5,6 @@
 int main( void )
 {   
     //Printer teksten
-    printf("Programmering er en kontakt sport\n");
+    printf("Programmering er en kontaktsport\n");
 
 } //End function main 
