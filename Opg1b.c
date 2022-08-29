@@ -5,8 +5,9 @@
 int main ()
 {
     //Initialiserer variablerne a og b som integers
-    int a;
-    int b;
+    int a = 0;
+    int b = 0;
+    int sum = 0;
     //Indlæser a fra inputtet
     printf("Skriv a:\n");
     scanf("%d", &a);
@@ -15,7 +16,7 @@ int main ()
     scanf("%d", &b);
     
     //lægger a og b sammen i variablen Sum
-    int sum = a+b;
+    sum = a+b;
 
     //printer summen
     printf("sum: %d\n",sum);
@@ -23,7 +24,7 @@ int main ()
     //Tjekker om summen er større end b
     if (sum > b){
         //lægger differencen af sum og b variablerne oveni a variablen
-        a += sum-b;
+        a = sum-b;
     }
     
 }//End function main
