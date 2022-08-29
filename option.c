@@ -1,7 +1,11 @@
 //Author: Sebastian Søgaard - s214920
 //Date: 27/08/2022
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 
+/*TODO: Tilføj håndtering af indtastede bogstaver istedet for tal. 
+Bed brugeren om at skrive nyt tal, istedet for at breake */
 int main ( void ) {
     //Laver en char variabel til at stoppe programmet
     char cont[1] = "Y";
@@ -14,6 +18,7 @@ int main ( void ) {
         //Tager input for num1 og num2
         printf("Indtast a og b, adskilt af komma:\n");
         scanf("%d,%d",&num1,&num2);
+        
         //Tager input for mulighederne 1,2,3,4
         printf("Indtast option (1,2,3,4):\n");
         scanf("%d",&option);
