@@ -1,3 +1,5 @@
+//Author: Sebastian Søgaard
+//Date: 29/08/2022
 #include <stdio.h>
 
 
