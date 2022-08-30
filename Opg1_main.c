@@ -1,5 +1,6 @@
 //Author: Sebastian Søgaard - s214920
 //Date: 29/08/2022
+//Filen indeholder opg1.a - 1.c, samt pseudokode til 1.b
 #include <stdio.h>
 
 int main( void )
@@ -21,9 +22,7 @@ int main( void )
     //Opg 1.b
 
     //Initialiserer variablerne a og b som integers
-    int a = 0;
-    int b = 0;
-    int sum = 0;
+    int a = 0,b = 0,sum = 0;
     //Indlæser a fra inputtet
     printf("Skriv a:\n");
     scanf("%d", &a);
@@ -32,7 +31,7 @@ int main( void )
     scanf("%d", &b);
     
     //lægger a og b sammen i variablen Sum
-    sum = a+b;
+    sum = a + b;
 
     //printer summen
     printf("sum: %d\n",sum);
@@ -40,7 +39,7 @@ int main( void )
     //Tjekker om summen er større end b
     if (sum > b){
         //lægger differencen af sum og b variablerne oveni a variablen
-        a = sum-b;
+        a = sum - b;
     }
 
     //Opg 1.c
@@ -52,7 +51,7 @@ int main( void )
     //Tager input fra brugeren, og placerer det i variablen "heltal"
     scanf("%d",&heltal);
     //Tjekker om heltal er deleligt med 5, med operatoren modulo
-    if(heltal%5 == 0){
+    if(heltal % 5 == 0){
         //Heltallet kan deles med 5 uden rest, det er derfor deleligt med 5
         printf("Deleligt med 5\n");
     }
